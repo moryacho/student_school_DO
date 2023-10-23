@@ -20,14 +20,14 @@
 //int end = int.Parse(Console.ReadLine());
 //for (int i = 1; i <= end; i++)
 //{
-//    Console.WriteLine(i + " " + FooBar(i));   
+//    Console.WriteLine(i + " " + FooBar(i));
 //}
 //Console.ReadLine();
 
 // функция, которая заменит все числа, не равные 0, на 1
 
 static int[][] RemakeArray(int[][] array)
-{   
+{
     for (int x = 0; x < array.Length; x++)
     {
         for (int y = 0; y < array[x].Length; y++)
@@ -38,8 +38,6 @@ static int[][] RemakeArray(int[][] array)
             }
         }
     }
-    
-
     return array;
 }
 
