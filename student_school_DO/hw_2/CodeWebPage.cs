@@ -9,7 +9,7 @@ namespace hw_2
 {
     internal class CodeWebPage
     {
-        const string FILEPATH = "C:\\Users\\yanaz\\OneDrive\\Рабочий стол\\выбирай итмо и не  выбирай вообще\\ланит\\hw_s\\student_school_DO\\hw_2\\forTask3";
+        const string FILEPATH = "C:\\Users\\yanaz\\OneDrive\\Рабочий стол\\выбирай итмо и не  выбирай вообще\\ланит\\hw_s\\student_school_DO\\hw_2\\dataFiles\\forTask3";
 
         public void Command()
         {
@@ -17,6 +17,7 @@ namespace hw_2
             Console.Write("Input url: ");
             string url = Console.ReadLine();
             string strToWrite = getResponse(url);
+
             if (strToWrite == string.Empty)
             {
                 Command();
@@ -47,6 +48,7 @@ namespace hw_2
                 do
                 {
                     count = resStream.Read(buf, 0, buf.Length);
+
                     if (count != 0)
                     {
                         sb.Append(Encoding.Default.GetString(buf, 0, count));
@@ -60,6 +62,7 @@ namespace hw_2
                 Console.ForegroundColor = ConsoleColor.Red;
                 Console.WriteLine("it is mistake here((((");
             }
+
             return string.Empty;
         }
     }

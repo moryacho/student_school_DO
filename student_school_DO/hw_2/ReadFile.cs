@@ -6,7 +6,7 @@ namespace hw_2
 {
     internal class ReadFile
     {
-        const string FILEPATH = "C:\\Users\\yanaz\\OneDrive\\Рабочий стол\\выбирай итмо и не  выбирай вообще\\ланит\\hw_s\\student_school_DO\\hw_2\\text.txt";
+        const string FILEPATH = "C:\\Users\\yanaz\\OneDrive\\Рабочий стол\\выбирай итмо и не  выбирай вообще\\ланит\\hw_s\\student_school_DO\\hw_2\\dataFiles\\text.txt";
 
         public void Command()
         {
@@ -16,6 +16,7 @@ namespace hw_2
             Console.ForegroundColor = ConsoleColor.Yellow;
             Console.Write("Would u like to repeat command (y/n): ");
             string ans = Console.ReadLine();
+
             if (ans == "y")
             {
                 Command();
@@ -25,8 +26,10 @@ namespace hw_2
         static int GetAllQuantityLines()
         {
             var file = new StreamReader(FILEPATH).ReadToEnd(); // big string
-            var lines = file.Split(new char[] { '\n' });      // big array
+            //var lines = file.Split(new char[] { '\n' });      // big array
+            var lines = file.Split("\n");s
             var count = lines.Length;
+
             return count;
         }
 

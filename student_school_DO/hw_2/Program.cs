@@ -12,6 +12,7 @@
                 "other - exit\n" +
                 "what would like to choose: ");
             string choice = Console.ReadLine();
+
             if (choice == "1")
             {
                 var readCommand = new ReadFile();
@@ -31,6 +32,5 @@
                 Main(args);
             }
         }
-
     }
 }
