@@ -13,6 +13,7 @@ namespace hw_2_3.CommandsForDB
         public void Menu()
         {
             bool repeatOrNot = true;
+
             while (repeatOrNot)
             {
                 Console.Write("hi! you can:\n" +

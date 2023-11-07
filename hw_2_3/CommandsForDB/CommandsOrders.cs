@@ -13,6 +13,7 @@ namespace hw_2_3.CommandsForDB
         public void Menu()
         {
             bool repeatOrNot = true;
+
             while (repeatOrNot)
             {
                 Console.Write("hi! you can:\n" +
@@ -51,6 +52,7 @@ namespace hw_2_3.CommandsForDB
         public void ReadAllTable(OrderRepository orderRepo)
         {
             List<DbOrders> orders = orderRepo.GetOrdersEF();
+
             foreach (DbOrders order in orders)
             {
                 Console.WriteLine($"{order.Id} - {order.ProductId} - {order.PickUpPointId} - {order.UserId} - {order.OrderDate}");

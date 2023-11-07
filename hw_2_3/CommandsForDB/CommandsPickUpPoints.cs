@@ -13,6 +13,7 @@ namespace hw_2_3.CommandsForDB
         public void Menu()
         {
             bool repeatOrNot = true;
+
             while (repeatOrNot)
             {
                 Console.Write("hi! you can:\n" +
@@ -56,6 +57,7 @@ namespace hw_2_3.CommandsForDB
         public void ReadAllTable(PickUpPointRepository pickUpPointRepo)
         {
             List<DbPickUpPoints> pickUpPoints = pickUpPointRepo.GetPickUpPointsEF();
+
             foreach (DbPickUpPoints pickUpPoint in pickUpPoints)
             {
                 Console.WriteLine($"{pickUpPoint.Id} - {pickUpPoint.Adress}");

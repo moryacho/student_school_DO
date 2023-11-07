@@ -11,6 +11,7 @@ namespace hw_2_3
         public void Menu()
         {
             bool repeatOrNot = true;
+
             while (repeatOrNot)
             {
                 Console.Write("hi! Welcome to database 'Dikie Yagodki'!\n" +

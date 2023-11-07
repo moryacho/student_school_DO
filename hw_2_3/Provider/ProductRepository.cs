@@ -64,6 +64,7 @@ namespace Provider
             {
                 product.QuantityStock = newQuantityStock;
             }
+
             _dbContext.SaveChanges();
         }
 

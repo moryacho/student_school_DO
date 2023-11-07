@@ -13,6 +13,7 @@ namespace hw_2_3.CommandsForDB
         public void Menu()
         {
             bool repeatOrNot = true;
+
             while (repeatOrNot)
             {
                 Console.Write("hi! you can:\n" +
@@ -57,6 +58,7 @@ namespace hw_2_3.CommandsForDB
         {
             List<DbUsers> users = userRepo.GetUsersEF();
             Console.WriteLine();
+
             foreach (DbUsers user in users)
             {
                 Console.WriteLine($"{user.Id} - {user.FirstName} - {user.LastName} - {user.CardNumber} - {user.RegistrationDate}");

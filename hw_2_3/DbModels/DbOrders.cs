@@ -13,6 +13,5 @@ namespace DbModels
         public Guid PickUpPointId { get; set; }
         public Guid UserId { get; set; }
         public DateTime OrderDate { get; set; }
-
     }
 }
