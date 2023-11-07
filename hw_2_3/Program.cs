@@ -1,4 +1,4 @@
-﻿namespace hw_2
+﻿namespace hw_2_3
 {
     internal class Program
     {
@@ -9,6 +9,7 @@
                 "1 - read file\n" +
                 "2 - fibonacci numbers\n" +
                 "3 - web page's code\n" +
+                "4 - db 'Dikie Yagodki'\n" +
                 "other - exit\n" +
                 "what would you like to choose: ");
             string choice = Console.ReadLine();
@@ -29,6 +30,12 @@
             {
                 var webPageCommand = new CodeWebPage();
                 webPageCommand.Command();
+                Main(args);
+            }
+            else if (choice == "4")
+            {
+                var DBCommand = new MenuForDB();
+                DBCommand.Menu();
                 Main(args);
             }
         }

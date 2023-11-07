@@ -5,7 +5,7 @@ using System.IO;
 using System.Text;
 using System.Net;
 
-namespace hw_2
+namespace hw_2_3
 {
     internal class CodeWebPage
     {
