@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.7.34031.279
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "hw_2_3", "hw_2_3.csproj", "{0BDD1165-BF4E-4FE6-A3FC-7501E5B4F2A9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DbModels", "DbModels\DbModels.csproj", "{BE83EB68-AED3-403D-B8D1-B6EE00DF975C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Provider", "Provider\Provider.csproj", "{71661C94-589D-44F5-A6CE-43C702386F61}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0BDD1165-BF4E-4FE6-A3FC-7501E5B4F2A9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0BDD1165-BF4E-4FE6-A3FC-7501E5B4F2A9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0BDD1165-BF4E-4FE6-A3FC-7501E5B4F2A9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0BDD1165-BF4E-4FE6-A3FC-7501E5B4F2A9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BE83EB68-AED3-403D-B8D1-B6EE00DF975C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BE83EB68-AED3-403D-B8D1-B6EE00DF975C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BE83EB68-AED3-403D-B8D1-B6EE00DF975C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BE83EB68-AED3-403D-B8D1-B6EE00DF975C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{71661C94-589D-44F5-A6CE-43C702386F61}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{71661C94-589D-44F5-A6CE-43C702386F61}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{71661C94-589D-44F5-A6CE-43C702386F61}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{71661C94-589D-44F5-A6CE-43C702386F61}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {90B6682D-4E28-475F-9F96-ED51E22A9220}
+	EndGlobalSection
+EndGlobal

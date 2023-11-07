@@ -3,7 +3,7 @@ using System.Diagnostics.Metrics;
 using System.Drawing;
 using System.Reflection.Metadata;
 
-namespace hw_2
+namespace hw_2_3
 {
     internal class ReadFile
     {
